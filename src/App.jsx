@@ -11,13 +11,25 @@ import PaiExercicio from './componentes/exercicio#01/PaiExercicio';
 import DiretaPai from './componentes/comunicao/DiretaPai';
 import IndiretaPai from './componentes/comunicao/IndiretaPai';
 import ListAlunos from './componentes/repeticao/ListAlunos';
+import TabelaAluno from './componentes/repeticao/TabelaAluno';
+import Input from './componentes/formulario/Input';
+import Password from './componentes/formulario/Password';
 
 export default () => {
 
     return (
         <div className="App">
             <h1>Fundamentos React</h1>
-            <div className="Cards">,
+            <div className="Cards">
+                <Card titulo="#12 - Password" color='#A9A9A9'>
+                   <Password/>
+                </Card>
+                <Card titulo="#11 - Formulario" color='#8A2BE2'>
+                   <Input titulo="Leitura"/>
+                </Card>
+                <Card titulo="#10 - Exercicio #02" color='#A52A2A'>
+                   <TabelaAluno/>
+                </Card>
                 <Card titulo="#09 - Repetição" color='#008B8B'>
                    <ListAlunos/>
                 </Card>
@@ -27,7 +39,7 @@ export default () => {
                 <Card titulo="#07 - Comunicação Direta" color='#7FFF00'>
                    <DiretaPai/>
                 </Card>
-                <Card titulo="#06 - Exercicio #02" color='#7FFFD4'>
+                <Card titulo="#06 - Exercicio #01" color='#7FFFD4'>
                    <PaiExercicio/>
                 </Card>
                 <Card titulo="#05 - Padastro e Filho" color='#006400'>
