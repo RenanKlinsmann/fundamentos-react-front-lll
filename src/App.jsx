@@ -14,6 +14,7 @@ import ListAlunos from './componentes/repeticao/ListAlunos';
 import TabelaAluno from './componentes/repeticao/TabelaAluno';
 import Input from './componentes/formulario/Input';
 import Password from './componentes/formulario/Password';
+import Exercicio03 from './componentes/formulario/Exercicio#03';
 
 export default () => {
 
@@ -21,6 +22,9 @@ export default () => {
         <div className="App">
             <h1>Fundamentos React</h1>
             <div className="Cards">
+                <Card titulo="#13 - Exercicio #03" color='#2F4F4F'>
+                   <Exercicio03/>
+                </Card>
                 <Card titulo="#12 - Password" color='#A9A9A9'>
                    <Password/>
                 </Card>
